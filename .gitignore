@@ -306,4 +306,6 @@ OpenCover/
 
 # Custom
 reportoutput/
-BoletoNetCore/BoletoNetCore.nuspec
+
+#Ignore MacOS Files
+.DS_Store

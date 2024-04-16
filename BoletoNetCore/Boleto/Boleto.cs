@@ -219,6 +219,8 @@ namespace BoletoNetCore
         public string MensagemInstrucoesCaixa { get; set; } = string.Empty;
         public string MensagemInstrucoesCaixaFormatado { get; set; } = string.Empty;
         public string MensagemArquivoRemessa { get; set; } = string.Empty;
+        public string MensagemProtesto { get; set; } = string.Empty;
+        public string MensagemLivre { get; set; } = string.Empty;
         public string RegistroArquivoRetorno { get; set; } = string.Empty;
 
         /// <summary>
@@ -236,6 +238,7 @@ namespace BoletoNetCore
         public CodigoBarra CodigoBarra { get; } = new CodigoBarra();
         public ObservableCollection<GrupoDemonstrativo> Demonstrativos { get; } = new ObservableCollection<GrupoDemonstrativo>();
         public string ParcelaInformativo { get; set; } = string.Empty;
+        public string ByteNossoNumero { get; set; } = "2";
 
         public void ValidarDados()
         {
