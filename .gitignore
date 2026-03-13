@@ -310,3 +310,4 @@ reportoutput/
 #Ignore MacOS Files
 .DS_Store
 sync-fork.ps1
+/BoletoNetCore.Playwright.ConsoleApp/output
